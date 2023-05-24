@@ -11,7 +11,6 @@ module.exports = {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)',
       },
-      /* atualizar o favicon tbm criando um icon.png no app */
       colors: {
         gray: {
           50: '#eaeaea',
