@@ -16,7 +16,10 @@ const Profile = () => {
       {/* height and width that i want to the image LOAD */}
       <p className="max-w-[148px] text-sm leading-snug">
         {name}
-        <a href="" className="block text-red-500 hover:text-red-400">
+        <a
+          href="/api/auth/logout"
+          className="block text-red-500 hover:text-red-400"
+        >
           Quero sair
         </a>
       </p>
